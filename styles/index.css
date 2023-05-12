@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: brown;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.main {
+  flex-grow: 1;
+
+  background-color: coral;
+}
+
+.footer {
+  background-color: crimson;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+
+  background-color: blue;
+}
